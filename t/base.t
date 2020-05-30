@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 use Test2::V0;
-use Test2::Plugin::GitHub::Actions::AnnotateFailedTest;
 
 use Acme::Hackadoll;
 
