@@ -5,5 +5,6 @@ requires 'parent';
 
 on 'test' => sub {
     requires 'Test::More';
+    requires 'Test2::V0';
     requires 'Test2::Plugin::UTF8';
 };
