@@ -19,7 +19,5 @@ jobs:
 
       - run: cpanm --installdeps .
 
-      - run: cpanm git://github.com/utgwkk/Test2-Plugin-GitHub-Actions-AnnotateFailedTest
-
       - run: prove -Ilocal -Ilib -lv t
   
