@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 sub new {
-    bless +{};
+    bless +{}, __PACKAGE__;
 }
 
 sub cv {
