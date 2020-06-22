@@ -14,6 +14,8 @@ jobs:
           perl-version: '5.30'
 
       - run: cpanm --installdeps .
+      
+      - run: perl -MTest2 -E 'say $Test2::VERSION'
 
       - run: prove -Ilocal -Ilib -lv t
   
